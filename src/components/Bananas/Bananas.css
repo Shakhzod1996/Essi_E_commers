@@ -1,0 +1,150 @@
+.fruits {
+  width: 100%;
+
+}
+
+.fruit_organic {
+  width: 100%;
+  height: 150px;
+  background-color: #F7F7F7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.fruit_organic > h3 {
+  font-size: 22px;
+  font-weight: 500;
+  color: #333;
+}
+
+.organic-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.organic-flex > p {
+  color: #333;
+  transition: all .4s ease;
+  font-size: 14px;
+}
+
+.organic-flex > p:hover {
+  color: #6baf0b;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.organic-flex > i {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.filter_fruits {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  background-color: #fff;
+}
+
+.left_filter_div {
+  display: flex;
+  align-items: center;
+  width: 480px;
+  justify-content: space-between;
+}
+
+.left_filter_div > h4  {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: all .4s ease;
+  font-weight: 500;
+}
+
+.left_filter_div > h4:hover {
+  color: #6baf0b;
+}
+
+.left_filter_div > h4 svg {
+  margin-left: 5px;
+}
+
+.first-h4 > svg {
+  margin-right: 5px;
+}
+
+.left_filter_div > p {
+  color: #999 !important;
+}
+
+.right_sort_div {
+  display: flex;
+  align-items: center;
+  width: 350px;
+  justify-content: space-between;
+}
+
+.right_sort_div > p {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: #333;
+}
+
+.right_sort_div > p > span {
+  color: #000;
+  font-weight: 500;
+  padding-left: 5px;
+}
+
+.short_icons > svg {
+  font-size: 20px;
+  color: #999;
+  fill: #999;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: all .4s ease;
+}
+
+.short_icons > svg:hover {
+  fill: #000;
+}
+
+.active {
+  fill: #000 !important;
+}
+
+.fruit_container_div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  justify-items: center;
+  margin-top: 40px;
+}
+
+.fruit_container_div > a {
+  color: #333;
+  text-decoration: none;
+}
+
+.recomend_div {
+  margin-top: 100px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.recomend_div > h2 {
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.rec_div {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+

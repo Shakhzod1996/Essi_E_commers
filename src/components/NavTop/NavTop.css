@@ -1,0 +1,93 @@
+.nav_top {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid #e3e3e3;
+  height: 126px;
+}
+
+.nav_top_flex {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.nav_top_flex > a > img {
+  margin-top: 10px;
+}
+
+.search-div {
+  width: 70%;
+  margin: auto;
+  border: 1px solid #dedede;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.search-div > input {
+  width: 85%;
+  padding: 12px;
+  border: none;
+  outline: none;
+  height: 100%;
+}
+.search-div button {
+  width: 15%;
+  display: flex;
+  height: 100%;
+  border: none;
+  background-color: #6baf0b;
+  color: #fff;
+  padding: 12px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
+  font-size: 15px;
+  transition: all .4s ease;
+}
+
+.search-div button:hover {
+  background-color: #5e9f04;
+
+}
+
+.search-div button i {
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.nav_top_flex > img {
+  max-height: 30px;
+}
+
+.wish_list_ul {
+  display: flex;
+  align-items: center;
+}
+
+.wish_list_ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  width: 140px;
+  justify-content: space-between;
+}
+
+.wish_list_ul li {
+  font-size: 24px;
+  /* margin-left: 20px; */
+  color: #333;
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wish_list_ul li > i {
+  font-size: 24px;
+}

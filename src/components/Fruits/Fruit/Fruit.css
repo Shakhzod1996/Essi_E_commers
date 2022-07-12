@@ -1,0 +1,178 @@
+.fruit_item {
+  width: 280px;
+  height: 400px;
+  position: relative;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all .4s ease;
+  
+}
+
+.absolute_svg {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+  transition: all .4s ease;
+  font-size: 20px;
+  color: #333;
+  cursor: pointer;
+  z-index: 555;
+}
+
+.absolute_svg:hover {
+  fill: #6baf0b;
+}
+
+.img_div {
+  width: 280px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.img_move {
+  transition: all .4s ease;
+  display: flex;
+  transform: translate(0);
+}
+
+.img_move-active {
+  transform: translate(-280px);
+}
+
+.img_move > img {
+  width: 280px !important;
+  height: 310px;
+  object-fit: cover;
+}
+
+.right-dec {
+  cursor: copy;
+}
+
+.move_btns_div div {
+  position: absolute;
+  top: 40%;
+  transform: translateY(-40%);
+  width: 30px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all .4s ease;
+  opacity: 0;
+}
+
+.fruit_item:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.fruit_item:hover .move_btns_div div {
+  opacity: 1;
+
+}
+
+.move_btns_div div:hover {
+  background-color: #e3e3e3;
+}
+
+.move_btns_div div:hover svg {
+  fill: #333
+}
+
+.move_btns_div div > svg {
+  font-size: 22px;
+  fill: rgb(192, 192, 192);
+}
+
+.left-btn {
+  left: 0;
+}
+
+.right-btn {
+  right: 0;
+}
+
+.right-dec:hover {
+  cursor: no-drop;
+}
+
+.bottom_btns {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 260px;
+  visibility: hidden;
+  transition: all .4s ease;
+  opacity: 0;
+}
+
+.bottom_btns > div {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  background-color: #fff !important;
+
+}
+
+.fruit_item:hover .bottom_btns {
+  visibility: visible;
+  opacity: 1;
+  top: 240px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.center_btn_div {
+  border-left: 1px solid #e3e3e3;
+  border-right: 1px solid #e3e3e3;
+}
+
+.center_btn_div > svg {
+  font-size: 20px;
+  color: #333;
+}
+
+.fruit_desc {
+  padding: 10px;
+}
+
+.fruit_desc > h3 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+}
+
+.fruit_desc_flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fruit_different_prices {
+  display: flex;
+}
+
+.fruit_different_prices > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 35px;
+  height: 35px;
+  font-size: 12px;
+  border: 1px solid #e3e3e3;
+  border-radius: 10px;
+  margin-left: 5px;
+  transition: all .4s ease;
+}
+
+.fruit_different_prices > div:hover {
+  border: 1px solid #333;
+}

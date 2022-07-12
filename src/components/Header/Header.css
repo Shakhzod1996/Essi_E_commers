@@ -1,0 +1,211 @@
+.header {
+  width: 100%;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ececec;
+}
+
+.header_flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left_header {
+  display: flex;
+  align-items: center;
+  color: #333;
+  font-size: 14px;
+  cursor: default;
+}
+
+.left_header > span > i {
+  margin-right: 5px !important;
+  font-size: 18px;
+}
+
+.right_header {
+  display: flex;
+  align-items: center;
+}
+
+.language_flex {
+  position: relative;
+}
+
+.language_flex a {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+}
+
+.language_flex a img {
+  margin-right: 5px;
+}
+
+.language_hover {
+  position: absolute;
+  top: 52px;
+  padding: 15px;
+  background-color: #fff;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  left: 50%;
+  min-width: 150px;
+  transform: translateX(-50%);
+  transition: all .4s ease;
+    /* display: none; */
+    visibility: hidden;
+  opacity: 0;
+  z-index: 100;
+}
+
+
+.language_flex:hover .language_hover {
+  visibility: visible;
+  display: block;
+  opacity: 1;
+  top: 42px;
+}
+
+.language_hover > li {
+  display: flex;
+  align-items: center;
+  transition: all .4s ease;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.language_hover > li > img {
+  margin-right: 5px;
+}
+
+.language_hover > li:hover {
+  color: #6baf0b;
+  cursor: pointer;
+}
+
+.right_header > div > div {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  font-size: 14px;
+  color: #333;
+  transition: all 0.4s ease;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.right_header > div > a {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #333;
+  transition: all 0.4s ease;
+  cursor: pointer;
+  font-weight: 400;
+  text-decoration: none;
+  height: 43px;
+  margin-left: 30px;
+}
+
+.right_header > div > a:hover {
+  color: #6baf0b;
+}
+
+.lang_a {
+  color: #333;
+  text-decoration: none;
+  height: 46px;
+  /* background-color: red; */
+}
+
+.lang_default:hover {
+  color: #6baf0b;
+}
+
+
+.language_flex > div > img {
+  margin-right: 5px;
+}
+
+.login_div > div > a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  transition: all 0.4s ease;
+}
+
+.login_div > a:hover {
+  color: #6baf0b;
+}
+
+.login_div > a i {
+  margin-right: 5px;
+  font-size: 18px;
+}
+
+.money_type {
+  position: relative;
+}
+
+.money_hover {
+  position: absolute;
+  top: 52px;
+  padding: 15px;
+  background-color: #fff;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  left: 50%;
+  min-width: 180px;
+  transform: translateX(-50%);
+  transition: all .4s ease;
+    /* display: none; */
+    visibility: hidden;
+  opacity: 0;
+  z-index: 100;
+}
+
+.money_hover > li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  transition: all .4s ease;
+}
+
+.money_hover > li:hover {
+  color: #6baf0b;
+}
+
+.money_hover > li > img {
+  margin-right: 5px;
+}
+
+
+.money_type:hover .money_hover {
+  visibility: visible;
+  display: block;
+  opacity: 1;
+  top: 42px;
+} 
+
+.login_div > div > a {
+  display: flex;
+  align-items: center;
+}
+
+.login_div > div > a > i {
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+.login_div > div > a:hover {
+  color: #6baf0b;
+}

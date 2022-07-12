@@ -1,0 +1,222 @@
+.category {
+  position: absolute;
+  top:60px;
+  left: 0;
+  width: 280px;
+  background-color: #fff;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom: 2px solid #6baf0b;
+  border-left: 2px solid #6baf0b;
+  border-right: 2px solid #6baf0b;
+  list-style: none;
+  padding: 15px;
+  z-index: 222;
+  display: block;
+}
+
+.category-hide {
+  display: none;
+}
+
+.category > li {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #e3e3e3;
+  padding-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  transition: all .4s ease;
+  padding-right: -30px;
+} 
+
+.category > li:hover > svg {
+  transition: all .4s ease;
+}
+
+
+.category > li > a {
+  text-decoration: none;
+  color: #333;
+  transition: all .4s ease;
+}
+
+.category > li > a:hover {
+  color: #6baf0b;
+}
+
+.category > li > a svg {
+  font-size: 20px;
+  fill: #333;
+  margin-right: 10px;
+  transition: all .4s ease;
+}
+
+.category > li > a:hover svg {
+  fill: #6baf0b;
+
+}
+
+
+.category > li a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  text-decoration: none;
+  color: #333;
+}
+
+.category > li a > svg {
+  color: #e3e3e3;
+  fill: #e3e3e3;
+}
+
+.fruit-hover_flex {
+  position: absolute;
+  left: 283px;
+  display: flex;
+  top: -20px;
+  padding: 20px;
+  background-image: url(../../../assets/vertical-menu-12jpg.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  min-width: 600px;
+  height:457px;
+  border: 1px solid #e3e3e3;
+  opacity: 0;
+  visibility: hidden;
+  transition: all .4s ease;
+  background-color: #fff;
+
+}
+
+.category > li:hover .fruit-hover_flex {
+  opacity: 1;
+  visibility: visible;
+  left: 263px;
+}
+
+.fruit-hover_flex > div > h3 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.fresh_div {
+  width: 40%;
+} 
+
+.nut_div {
+  width: 60%;
+}
+
+.fruit-hover_flex > div > ul {
+  list-style: none;
+}
+
+.fruit-hover_flex > div > ul > li {
+  font-size: 13px;
+  padding: 5px;
+  cursor: pointer;
+  transition: all .4s ease;
+  color: #333;
+}
+
+.fruit-hover_flex > div > ul > li:hover {
+  color: #6baf0b;
+  transform: translateX(5px);
+}
+
+.vegetables-hover {
+  position: absolute;
+  left: 283px;
+  display: flex;
+  top: -56px;
+  padding: 20px;
+  background-image: url(../../../assets/vertical-menu-1.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  min-width: 600px;
+  height:457px;
+  border: 1px solid #e3e3e3;
+  opacity: 0;
+  visibility: hidden;
+  transition: all .4s ease;
+  background-color: #fff;
+}
+
+.category > li:hover .vegetables-hover {
+  opacity: 1;
+  visibility: visible;
+  left: 263px;
+}
+
+.vegetables-hover > div > h3 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.vegetables-hover > div > ul {
+  list-style: none;
+}
+
+.vegetables-hover > div > ul > li {
+  font-size: 13px;
+  padding: 5px;
+  cursor: pointer;
+  transition: all .4s ease;
+  color: #333;
+}
+
+.vegetables-hover > div > ul > li:hover {
+  color: #6baf0b;
+  transform: translateX(5px);
+}
+
+.drink_hover {
+  position: absolute;
+  left: 283px;
+  top: -30px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #e3e3e3;
+  opacity: 0;
+  visibility: hidden;
+  transition: all .4s ease;
+}
+
+.category > li:hover .drink_hover {
+  opacity: 1;
+  visibility: visible;
+  left: 263px;
+}
+
+.drink_hover > div {
+  min-width: 180px;
+}
+
+.drink_hover > div > ul {
+  list-style: none;
+}
+
+.drink_hover > div > ul > li {
+  font-size: 13px;
+  padding: 5px;
+  cursor: pointer;
+  transition: all .4s ease;
+  color: #333;
+}
+
+.drink_hover > div > ul > li:hover {
+  color: #6baf0b;
+  transform: translateX(5px);
+}
+

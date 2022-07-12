@@ -1,0 +1,63 @@
+.div_quik > img {
+  width: 50%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.div_quik > a {
+  text-decoration: none;
+  color: #333;
+}
+
+.quick_each_h2 {
+  color: #333;
+  font-weight: 500;
+  margin-top: 20px;
+  transition: all .4s ease;
+}
+
+.quick_each_h2:hover {
+  color: #6baf0b;
+}
+
+.quik_price_flex {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.quik_price_flex > p:first-child {
+  color: #999;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.quik_price_flex > p:last-child {
+  color: #333;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.lorem1 {
+  font-size: 13px;
+  color: #999;
+  margin-bottom: 30px;
+}
+
+.days2 > div > p:last-child {
+  font-size: 12px !important;
+}
+
+.days2 {
+  margin-bottom: 20px;
+}
+
+.left {
+  font-size: 14px;
+}
+
+.left > span {
+  color: #6baf0b;
+  font-weight: 500;
+}

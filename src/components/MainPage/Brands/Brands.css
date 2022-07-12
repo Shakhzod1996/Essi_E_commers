@@ -1,0 +1,19 @@
+.brands {
+  margin-bottom: 50px;
+}
+
+.brands_flex {
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brands_flex > img {
+  cursor: pointer;
+  transition: all .4s ease;
+}
+
+.brands_flex > img:hover {
+  opacity: .5;
+}

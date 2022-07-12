@@ -1,0 +1,70 @@
+.shop_now {
+  margin-bottom: 50px;
+}
+
+.shop_now_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 25px;
+}
+
+.shop_grid_item_flex {
+  position: relative;
+  cursor: pointer;
+  /* width: 500px; */
+  overflow: hidden;
+  height: 220px;
+}
+
+.shop_grid_item_flex > img {
+  width: 100%;
+  height: 100%;
+  transition: all .4s ease;
+}
+
+.shop_grid_item_flex:hover > img {
+  transform: scale(1.05);
+  z-index: -1;
+}
+
+.shop_desc {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  z-index: 555;
+}
+
+.shop_desc > a > button {
+  margin-top: 30px;
+  background-color: inherit;
+  color: #333;
+  border: none;
+  font-weight: 500;
+  transition: all .4s ease;
+  cursor: pointer;
+}
+
+.shop_desc > a > button:hover {
+  color: #6baf0b;
+}
+
+.shop_desc > h3 {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+}
+
+.sale_off_shop {
+  margin-top: 10px;
+}
+
+.sale_off_shop {
+  font-size: 18px;
+  color: #333;
+  font-weight: 500;
+}
+
+.sale_off_shop > span {
+  color: #FB716C !important;
+}
+

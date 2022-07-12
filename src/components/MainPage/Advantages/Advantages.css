@@ -1,0 +1,66 @@
+.advantages {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.advantages_grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+}
+
+.ad_grid_item {
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+
+
+.ad_grid_item > svg {
+  fill: #6baf0b;
+  font-size: 40px;
+  color: #6baf0b;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.ad_grid_item > h2 {
+  font-weight: 400;
+  color: #333;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.ad_grid_item > p {
+  font-size: 14px;
+  color: #999;
+}
+
+.ad_grid_item:hover svg {
+  animation: move .2s ease 5 !important;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateX(2px);
+  }
+
+  50% {
+    transform: translateX(0px);
+  }
+
+  75% {
+    transform: translateX(-2px);
+  }
+
+  100% {
+    transform: translateX(0);
+
+  }
+}

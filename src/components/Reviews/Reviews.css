@@ -1,0 +1,131 @@
+.reviews {
+  margin-top: 80px;
+  width: 100%;
+}
+
+.rev_btns {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.rev_btns > button {
+  margin: 20px;
+  font-size: 30px;
+  color: #999;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.act {
+  color: #333 !important;
+}
+
+.reviews_desc {
+  display: none;
+} 
+
+.description {
+  display: block !important;
+}
+
+.description > p {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 10px;
+  line-height: 25px;
+}
+
+.stars_flex {
+  display: flex;
+  align-items: center;
+  width: 550px;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.rate {
+  font-size: 18px;
+}
+
+.div_width {
+  width: 380px;
+  height: 15px;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+
+.review_p {
+  font-size: 35px;
+  color: #6baf0b ;
+}
+
+.review_p > span {
+  font-size: 18px !important;
+  color: #333;
+}
+
+.reviews_desc > h3 {
+  font-size: 20px;
+  margin-top: 50px;
+  font-weight: 500;
+  color: #333;
+}
+
+.no_reviews {
+  font-size: 14px !important;
+  color: #333 !important;
+}
+
+.custom_tab {
+  display: none;
+}
+
+.custom_tab > h3 {
+  font-size: 20px;
+  color: #333;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.custom_tab > p {
+  font-size: 14px;
+  color: #333;
+  line-height: 25px;
+}
+
+.custom_flex {
+  display: flex;
+  align-items: center;
+}
+
+.custom_flex > img {
+  width: 50%;
+}
+
+.right_support > h3 {
+  font-weight: 500;
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.right_support > p {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.right_support > a {
+  font-size: 14px;
+  color: #333;
+}
+
+.desc-show {
+  display: block !important;
+}
+
+.desc-hide {
+  display: none !important;
+}

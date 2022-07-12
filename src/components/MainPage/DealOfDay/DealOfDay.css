@@ -1,0 +1,248 @@
+.deal_inside_flex {
+  width: 100%;
+  display: flex;
+  gap: 25px;
+  margin-bottom: 30px;
+}
+
+.left_deal {
+  width: 75%;
+  border: 1px solid #6baf0b;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.left_deal > h2 {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e3e3e3;
+  font-weight: 500;
+}
+
+.right_deal {
+  width: 25%;
+}
+
+.right_deal img {
+  width: 50%;
+}
+
+.deal_item_flex {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.left_img_item {
+  width: 40%;
+}
+
+
+.left_img_item > img {
+  width: 100%;
+}
+
+.right_img_item {
+  width: 60%; 
+}
+
+.right_img_item > p {
+  font-weight: 500;
+  color: #bfbfbf;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+.right_img_item > p:hover {
+  color: #333;
+}
+
+.right_img_item > h2 {
+  font-weight: 500;
+  color: #333;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.prices_flex {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.line_through {
+  text-decoration: line-through;
+}
+
+.prices_flex > p {
+  margin-right: 15px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.prices_flex > p:first-child {
+  color: #999;
+}
+
+.prices_flex > p:last-child {
+  color: #ff3300;
+}
+
+.days_div_flex {
+  display: flex;
+  align-items: center;
+}
+
+.days_div_flex > div {
+  margin-right: 20px;
+  text-align: center;
+}
+
+.days_div_flex > div > p:first-child {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+
+.days_div_flex > div > p:last-child {
+  font-weight: 500;
+  color: #333;
+  font-size: 14px;
+}
+
+.sold_flex {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sold_flex > p {
+  font-size: 14px;
+  color: #333;
+}
+
+.sold_flex > p > span {
+  color: #6baf0b;
+  font-weight: 500;
+}
+
+.width_relative {
+  width: 100%;
+  height: 15px;
+  border-radius: 15px;
+  background-color: #f1f1f1;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.width_absolute {
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 15px;
+  width: 60%;
+  height: 100%;
+  background-color: #6baf0b;
+  transition: all 0.4s ease;
+}
+
+.deal_add_btn {
+  padding: 10px 35px;
+  border: none;
+  background-color: #6baf0b;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.deal_add_btn:hover {
+  background-color: #598f0e;
+}
+
+.deal_add_btn:active {
+  transform: scale(1.1);
+}
+
+.buton_img {
+  border-radius: 5px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  border: 1px solid #fff;
+}
+
+.buton_img:hover {
+  border: 1px solid #6baf0b;
+}
+
+.buton_img > img {
+  width: 30%;
+}
+
+.right_img_buton {
+  width: 70%;
+}
+
+.right_img_buton {
+  margin-left: 10px;
+}
+
+.right_img_buton > h4 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.prices_flex_right {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.prices_flex_right > p {
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.prices_flex_right > p:first-child {
+  color: #999;
+  text-decoration: line-through;
+}
+
+.prices_flex_right > p:last-child {
+  color: #6baf0b;
+  font-weight: 500;
+}
+
+.active-btn {
+  border: 1px solid #6baf0b;
+  position: relative;
+}
+
+
+.active-btn::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-bottom: 1px solid #6baf0b;
+  border-left: 1px solid #6baf0b;
+  background-color: #6baf0b;
+
+  transform: rotate(45deg)translateY(-50%);
+  left: -10px;
+  top: 50%;
+}

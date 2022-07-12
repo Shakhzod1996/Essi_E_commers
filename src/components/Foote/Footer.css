@@ -1,0 +1,129 @@
+.footer {
+  background-color: #FAFAFA;
+  padding-top: 80px;
+  /* padding-bottom: 100px; */
+}
+
+.foot_grid {
+  display: grid;
+  grid-template-columns: .9fr .9fr .8fr 1.5fr;
+  padding-bottom: 50px;
+}
+
+.foot_grid_item > div {
+  margin-bottom: 30px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.foot_grid_item > div > input {
+  width: 100%;
+  padding: 7px;
+  border: 1px solid #e3e3e3;
+  outline: none;
+  font-size: 14px;
+}
+
+.foot_grid_item > div > button {
+  /* width: 100%; */
+  padding: 7px 30px;
+  background-color: #6baf0b;
+  color: #fff;
+  font-weight: 500;
+  border: none;
+  border: 1px solid #6baf0b;
+  margin-left: 10px;
+}
+
+.foot_grid_item > div > h2 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #333;
+}
+
+.links_flex {
+  width: 150px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+
+.links_flex > i {
+  cursor: pointer;
+  transition: all .4s ease;
+  padding: 5px;
+  color: #999;
+}
+
+.links_flex > i:hover {
+  color: #6baf0b;
+}
+
+.foot_grid_item > ul {
+  list-style-type: none;
+}
+
+.foot_grid_item > ul > li {
+  margin-bottom: 10px;
+}
+
+.foot_grid_item > ul > li > a {
+  font-size: 13px;
+  text-decoration: none;
+  color: #333;
+  cursor: pointer;
+  transition: all .4s ease;
+}
+
+.foot_grid_item > ul > li > a:hover {
+  color: #6baf0b;
+}
+
+.last_li {
+  border-bottom: 1px solid #e3e3e3;
+  padding-bottom: 10px;
+  margin-left: 100px;
+}
+
+.last_li > a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cards_img {
+  float: right;
+  margin-top: 20px;
+}
+
+.bottom_footer {
+  background-color: #fff;
+  padding: 40px 0;
+}
+
+.bot_foot_flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 13px;
+}
+
+.bot_foot_flex > ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.bot_foot_flex > ul li {
+  margin-left: 20px;
+}
+
+.bot_foot_flex > ul li > a {
+  color: #333;
+  text-decoration: none;
+  transition: all .4s ease;
+}
+
+.bot_foot_flex > ul li > a:hover {
+  color: #6baf0b;
+}

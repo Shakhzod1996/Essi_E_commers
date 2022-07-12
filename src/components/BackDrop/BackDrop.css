@@ -1,0 +1,14 @@
+.backdrop {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.419);
+  z-index: 777;
+  display: none;
+}
+
+.backdrop_show {
+  display: block;
+}
