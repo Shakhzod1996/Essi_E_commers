@@ -31,3 +31,258 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+/* ?Max 1300px */
+@media (max-width: 1300px) {
+  .fruit_container_div {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+
+  .foot_grid {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .brands_flex  {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+  }
+
+  .foot_grid_item:last-child {
+    margin-top: 30px !important;
+
+  }
+
+  .last_li {
+    margin-left: 0 !important;
+  }
+}
+
+@media (max-width: 1100px) {
+  .search-div {
+    width: 50% !important;
+  }
+
+  .search-div button {
+    width: 30% !important;
+  }
+
+  .operator-div {
+    display: none !important;
+  }
+
+  .deal_inside_flex {
+    flex-direction: column;
+  }
+
+  .left_deal {
+    width: 100% !important;
+  }
+
+  .right_deal {
+    display: flex;
+    gap: 25px;
+    flex-direction: row;
+    width: 100% !important;
+    
+  }
+
+  .buton_img {
+    width: 600px !important;
+  }
+
+  .shop_now_grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  .fruit_container_div {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  
+  .foot_grid {
+    grid-template-columns: 1fr 1fr !important;
+  }
+
+  .foot_grid_item:last-child {
+    margin-top: 30px;
+  }
+
+  .home_hover {
+    display: none;
+  }
+
+  .bot_foot_flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bot_foot_flex > p {
+    margin-bottom: 10px !important;
+  }
+
+  .buton_img >img {
+    object-fit: cover;
+  }
+
+  .fruit-hover_flex {
+    min-width: 250px !important;
+
+  }
+
+  .nut_div {
+    display: none;
+  }
+
+  .vegetables-hover {
+    min-width: 250px !important;
+  }
+}
+
+@media (max-width: 1000px) {
+  .advantages_grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  
+  .ad_grid_item {
+    margin-bottom: 30px;
+  }
+
+  .best_selling_header_grid {
+    display: none !important;
+  }
+
+  .best_selling_item_grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  
+  .top-category {
+    width: 50%;
+  }
+}
+
+@media (max-width: 900px) {
+  .right_deal {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .deal_item_flex {
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+  }
+
+  .left_img_item {
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  .left_img_item > img {
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .right_img_item  {
+    width: 100% !important;
+
+  }
+
+  .buton_img {
+    width: 100% !important;
+  }
+
+  .center-nav-ul {
+    display: none !important;
+  }
+}
+
+@media (max-width: 800px) {
+  .left_header {
+    display: none !important;
+  }
+
+  .search-div {
+    display: none !important;
+  }
+
+  .slider-header {
+    display: none;
+  }
+
+  /* .swiper {
+    height: 50vh !important;
+  } */
+  .swiper > img {
+    object-fit: cover;
+    background-position: left !important;
+  }
+
+  .shop_now_grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .shop_grid_item_flex > img {
+    object-fit: cover;
+  }
+
+  .bot_foot_flex > ul {
+    flex-direction: column !important;
+  }
+
+  .featured_btns > button > svg {
+    font-size: 30px !important;
+  }
+
+  .featured_btns > button > p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 700px) {
+  .fruit_container_div {
+    grid-template-columns: 1fr !important;
+  }
+
+  .brands_flex {
+    grid-template-columns: 1fr 1fr !important;
+  }
+
+  .right_deal {
+    grid-template-columns: 1fr;
+  }
+
+  .featured_btns > button > svg {
+    font-size: 25px !important;
+  }
+
+  .featured_btns > button > p {
+    font-size: 16px;
+  }
+
+  .best_selling_item_grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .fruit-hover_flex {
+    display: none !important;
+  }
+
+  .vegetables-hover {
+    display: none !important;
+  }
+
+  .drink_hover {
+    display: none !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .foot_grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+
+

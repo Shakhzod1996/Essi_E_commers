@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Milks.css";
 import { CgNotes } from "react-icons/cg";
 import { MdKeyboardArrowDown } from "react-icons/md";
@@ -23,6 +23,8 @@ export default function Fruits({
   addToCartHandler,
   setObj1
 }) {
+
+  const [block, setBlock] = useState(false)
   return (
     <div className="fruits">
       <div className="fruit_organic">
@@ -58,12 +60,12 @@ export default function Fruits({
             </p>
 
             <div className="short_icons">
-              <BsFillGrid3X3GapFill className="active" />
-              <GiHamburgerMenu />
+              <BsFillGrid3X3GapFill onClick={()=> setBlock(false)} className={`${block ? "" : "active"}`} />
+              <GiHamburgerMenu onClick={()=> setBlock(true)} className={`${block ? "active" : ""}`} />
             </div>
           </div>
         </div>
-        <div className="fruit_container_div">
+        <div className={`${block ? "fruit_container_div" : "fruit_container_div"}`}>
           {fruitObj.map((item, index) => {
             if (item.category === "Milks & Creams") {
               return (

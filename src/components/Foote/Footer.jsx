@@ -1,4 +1,4 @@
-import { Container } from "@mui/system";
+import  Container  from "../../Container/Container";
 import React from "react";
 import "./Footer.css";
 import logo from "../../assets/organic-logo.png";
