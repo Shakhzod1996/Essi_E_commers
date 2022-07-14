@@ -276,11 +276,26 @@
   .drink_hover {
     display: none !important;
   }
+
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
   .foot_grid {
     grid-template-columns: 1fr !important;
+  }
+
+  .right_header > div:last-child {
+    display: none !important;
+  }
+
+  .fruit_item>.move_btns_div div {
+    opacity: 1 !important;
+  }
+
+  .fruit_item .bottom_btns {
+    opacity: 1 !important;
+    visibility: visible !important;
+    top: 240px;
   }
 }
 
