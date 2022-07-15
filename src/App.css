@@ -391,8 +391,32 @@
     width: 100% !important;
   }
 
+  .each_fruit_header_flex > h2 {
+    font-size: 22px !important;
+  }
 
+  .fruit_price {
+    font-size: 22px !important;
+  }
+
+  .rev_btns > button {
+    font-size: 22px !important;
+  }
+  
+  .my_cart_fixed {
+    width: 300px !important;
+  }
+
+  .shipping_flex_cart {
+    display: none !important;
+  }
+
+  .total_div > h4 {
+    font-size: 18px !important;
+  }
 }
+
+
 
 
 
