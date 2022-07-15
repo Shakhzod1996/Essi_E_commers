@@ -42,8 +42,8 @@ export default function EachItem({
   return (
     <>
       <div className="div_quik">
-        <img src={item.img[0]} alt="img" />
-        <img src={item.img[1]} alt="img" />
+        <img src={item.img[0]} alt="img" className="l_img" />
+        <img src={item.img[1]} alt="img" className="l_img1" />
         <NavLink to={`Fruits/${item.id}`} onClick={gotoFruitHandler}>
           <h2 className="quick_each_h2">{item.name}</h2>
         </NavLink>

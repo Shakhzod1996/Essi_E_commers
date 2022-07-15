@@ -414,6 +414,31 @@
   .total_div > h4 {
     font-size: 18px !important;
   }
+
+  .hhr {
+    display: none;
+  }
+
+  .cart_head_flex > p {
+    width: 120px !important;
+    overflow: hidden !important;
+  }
+  .my_cart_fixed1 {
+    width: 350px !important;
+  }
+
+  .l_img {
+    width: 100% !important;
+  }
+
+  .l_img1 {
+    display: none !important;
+    object-fit: cover;
+  }
+
+  .compare_products_right {
+    display: none !important;
+  }
 }
 
 

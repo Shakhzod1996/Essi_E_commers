@@ -83,7 +83,7 @@ export default function MyCartFixed({
                   <i className="bx bxs-coupon"></i> <p>Coupon</p>
                 </button>
               </div>
-              <hr />
+              <hr className="hhr" />
               <div className="sab_total_div">
                 <div className="total_each">
                   <h4>SubTotal</h4>
