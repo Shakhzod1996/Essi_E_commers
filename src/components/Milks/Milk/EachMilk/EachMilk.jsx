@@ -123,13 +123,13 @@ export default function EachFruit({
                             <Zoom
                               img={item.img[0]}
                               zoomScale={2}
-                              width={500}
+                              width={300}
                               height={500}
                             ></Zoom>
                             <Zoom
                               img={item.img[1]}
                               zoomScale={2}
-                              width={500}
+                              width={300}
                               height={500}
                               cursor="pointer"
                             ></Zoom>

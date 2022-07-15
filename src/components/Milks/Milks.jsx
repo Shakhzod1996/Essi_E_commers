@@ -48,7 +48,7 @@ export default function Fruits({
             <h4>
               Status <MdKeyboardArrowDown />
             </h4>
-            <p>{fruitObj.length} results</p>
+            <p className="just_result">{fruitObj.length} results</p>
           </div>
 
           <div className="right_sort_div">
